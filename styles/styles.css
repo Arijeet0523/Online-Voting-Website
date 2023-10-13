@@ -1,5 +1,5 @@
 body{
-    background-image: url(/images/design.png);
+    background-image: url(images/design.png);
     background-repeat: no-repeat; /* Used if the image is unavailable */
     width: 100%;
     height: 500px; /* You must set a specified height */
