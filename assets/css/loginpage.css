@@ -248,7 +248,7 @@ body {
 
 /* ===================================== Login Page Design CSS ==================================== */
 .form-login-body {
-  background-image: url(/images/design.png);
+  background-image: url(images/design.png);
   background-size: cover; }
   @media screen and (max-width: 991px) {
     .form-login-body {
