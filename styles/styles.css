@@ -1,0 +1,102 @@
+body{
+    background-image: url(/images/design.png);
+    background-repeat: no-repeat; /* Used if the image is unavailable */
+    width: 100%;
+    height: 500px; /* You must set a specified height */
+    background-position: top right; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+ #left-heading{
+    font-weight: bold;
+    color: blue;
+}
+#stack{
+    padding-top: 50px;
+    padding-left: 20px;
+}
+.navbar{
+    padding-left: 4%;
+    padding-right: 4%;
+    align-items: center;
+    vertical-align:middle;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(0, 0, 0,0.2);
+    z-index: 100;
+    /* background-color:lightpink */
+}
+.nav-link{
+    color:blue;
+    margin: auto;
+}
+li{
+    font-size: 1.2rem;
+    margin-left: 20px;
+}
+.navbar-brand{
+    color:blue;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+#home{
+    font-weight: bold;
+}
+#sign-up{
+    font-weight: bold;
+}
+ul{
+    margin-left: auto;
+}
+#left-section{
+    width: 50%;
+    padding-left: 40px;
+    /* background-color: lightpink; */
+}
+#right-section{
+    /* background-color: lightblue; */
+    width: 50%;
+    position: relative;
+}
+#brand-img{
+    width: 50px;
+    height: 50px;
+    align-self:center;
+    margin-top: 8px;
+}
+.btn {
+    width: 12rem;
+    border-radius: 4rem;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    background: #EB07AA;
+    padding: 0.8rem 2rem ;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #EB07AA;
+    text-decoration: none;
+  }
+  .link-btn{
+    color: white;
+    text-decoration: none;
+}
+
+#voting-box{
+    position: absolute;
+    width: 40%;
+    top: 15rem;
+    left: 35%;
+    
+}
+#voting-machine{
+    position: absolute;
+    width: 30%;
+    top: 25%;
+    left: 20%;
+}
+
+
